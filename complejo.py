@@ -12,5 +12,5 @@ class Complejo:
     def calcula_norma(self):
         return self.norma
     def pow(self,p):
-        z = np.power((self.real + 1j*self.imaginario),p).real
+        z = np.power((self.real + 1j*self.imaginario),p)
         return Complejo(z.real,z.imag)
