@@ -6,7 +6,7 @@ class Complejo:
         self.imaginario = b
         self.real = a
         self.norma = (a**2 + b**2)**(1/2)
-    def confugado(self):
+    def conjugado(self):
         return Complejo(self.real,self.imaginario)
     def calcula_norma(self):
         return self.norma
